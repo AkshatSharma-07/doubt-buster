@@ -1,4 +1,4 @@
- const BASE_URL = 'https://doubt-buster.vercel.app'
+ const BASE_URL = 'https://doubt-buster-rust.vercel.app/'
 
   // const BASE_URL = 'http://localhost:3000'
 

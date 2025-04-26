@@ -177,7 +177,7 @@ function PageComp() {
 
       await socket.emit("room:call:end", { roomCreator, room: room });
 
-      window.location.href = 'https://doubt-buster.vercel.app/';
+      window.location.href = 'https://doubt-buster-rust.vercel.app//';
       // setcallend(true);
       // router.push("/call/room/feedback");
       

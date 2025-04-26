@@ -84,7 +84,7 @@ const questiontemp = (email,url,doubt) => {
 	<body>
 	<div style="background: black; color: white;">
 		<div class="container body">
-			<a href="https://doubt-buster.vercel.app"><img class="logo"
+			<a href="https://doubt-buster-rust.vercel.app/"><img class="logo"
 					src="https://imgtr.ee/images/2024/04/10/dd742a3be79d04a6a6276a88508b9a72.png" alt="DoubtBuster"></a>
 	
 			<div>

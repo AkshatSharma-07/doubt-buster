@@ -24,7 +24,7 @@ const Page = () => {
         if (!tokenFromStorage) {
             const url = `/call/${tokken}`;
             localStorage.setItem('redirectPath', url);
-            window.location.href = "https://doubt-buster.vercel.app/login/expertlogin";
+            window.location.href = "https://doubt-buster-rust.vercel.app//login/expertlogin";
         }
     }, [tokken]);
 
@@ -92,7 +92,7 @@ const Page = () => {
                 <div className=' shadow-2xl flex py-20 px-40 text-red-500 font-mono font-semibold flex-col justify-center items-center bg-black border-2 border-red-800 rounded-2xl'>
                   <p className=" text-red-500 text-2xl font-medium">Sorry, the doubt has been solved,</p>
                   <p className=" text-red-500 text-2xl font-medium">Gear up for the next one.</p>
-                  <a href="https://doubt-buster.vercel.app/" className=" text-center mt-5  bg-red-500 hover:bg-red-700 text-xl font-semibold px-4 py-2 rounded-xl text-white">Go Home</a>
+                  <a href="https://doubt-buster-rust.vercel.app//" className=" text-center mt-5  bg-red-500 hover:bg-red-700 text-xl font-semibold px-4 py-2 rounded-xl text-white">Go Home</a>
                 </div>
             ) : (
                 <div className=' shadow-2xl flex py-20 px-40 text-red-500 font-mono font-semibold flex-col justify-center  bg-black border-2 border-red-800 rounded-2xl'>

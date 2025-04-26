@@ -55,7 +55,7 @@ function Page() {
   }
 
   const handelHome = async () => {
-    window.location.href = "https://doubt-buster.vercel.app/";
+    window.location.href = "https://doubt-buster-rust.vercel.app//";
   }
 
   return (

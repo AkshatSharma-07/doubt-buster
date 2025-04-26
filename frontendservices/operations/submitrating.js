@@ -34,7 +34,7 @@ export function submitRating(userId, expertEmail, feedback, rating) {
       //   throw new Error(response.data.message)
       // }
       // route.push("/");
-      window.location.href = "https://doubt-buster.vercel.app/";
+      window.location.href = "https://doubt-buster-rust.vercel.app//";
     } catch (err) {
       console.log(err)
     }

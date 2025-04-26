@@ -15,7 +15,7 @@ const {loading}=useSelector((state) => state.profile);
   useEffect(()=>{
 
     if(!userData){
-      window.location.href="https://doubt-buster.vercel.app/";
+      window.location.href="https://doubt-buster-rust.vercel.app//";
     }
 
   },[userData])
